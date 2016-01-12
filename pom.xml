@@ -29,5 +29,11 @@
      <scope>runtime</scope>
 </dependency>
   </dependencies>
-
+<distributionManagement>
+    <repository>
+      <id>idTemp</id>
+      <name>temp</name>
+      <url> file:\\${project.build.directory}\target\depliegue_temporal</url>
+    </repository>
+</distributionManagement>
 </project>
